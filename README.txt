@@ -7,6 +7,7 @@ Step 1:
 	As per http://www.curse.com/mc-mods/minecraft/225179-voxelmap you need to enable image output by editing your VoxelMap config.
 	You may also want to disable dynamic lighting.
 	You can find your config at C:\Users\[Your user account]\AppData\Roaming\.minecraft\mods\VoxelMods\
+	Clarification: You simply need to add "Output Images:true" on a new line at the bottom of the Voxelmap config - it'll be overwritten at Minecraft boot, so every time you want to save actual images you'll need to set that option again.
 	Don't close this Explorer window down yet - you'll need to get there again later.
 
 Step 2:
@@ -18,6 +19,7 @@ Step 2:
 Step 3:
 	Find those images!
 	These will usually be in C:\Users\[Your user account]\AppData\Roaming\.minecraft\mods\VoxelMods\voxelMap\cache\rp.gazamo.com\Overworld\images\z1
+	Can't find them? Make sure you set that config option every time you start up the game!
 
 Step 4:
 	Put the images in the right place.
