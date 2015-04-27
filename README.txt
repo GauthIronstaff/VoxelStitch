@@ -20,19 +20,20 @@ Step 3:
 	Find those images!
 	These will usually be in C:\Users\[Your user account]\AppData\Roaming\.minecraft\mods\VoxelMods\voxelMap\cache\rp.gazamo.com\Overworld\images\z1
 	Can't find them? Make sure you set that config option every time you start up the game!
+	(V2 only!) Using the directory selection screen automagically opens up the right folder in your AppData if it exists. Scroll down a bit and you should be able to go through and find your image folder.
 
 Step 4:
-	Put the images in the right place.
+	Put the images in the right place. (V1 only!)
 	Simply copy and paste all the images into the images folder WITHIN the dist folder in the VoxelStitch folder, which you should have unzipped or whatever by now.
 
 Step 5:
-	Want to see the image just before it's saved for whatever reason? You can!
+	Want to see the image just before it's saved for whatever reason? You can! (V1 Only for now!)
 	In the top bar of your Control Panel, paste in "Control Panel\Programs\Default Programs\Set Associations"
 	Find the .bmp file association, and click change program on it and switch it over to mspaint.exe
 	This is because the default windows image viewer thing is terrible, and refuses to accept a /wait command so the temporary image is automatically deleted before it can load it.
 
 Step 6:
-	When you have ensured that everything is in the right place, run the VoxelStitch.exe!
+	When you have ensured that everything is in the right place, run VoxelStitch.exe!
 	You'll see plenty of numbers fly by, trying to inform you as to which files it's processing right then.
 	If you want to understand these, have a look at the VOxelStitch.py file in the main directory - it should be clear enough as to what is what.
 
